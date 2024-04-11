@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>⭐️</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="page">
+			<div class="words">
+				<div class="top">
+					It's
+					<span id="time"></span>
+					<span id="month"></span>
+					<span id="day"></span>
+				</div>
+				<div class="right">and it's</div>
+				<div class="bottom"><span id="status"></span> star's</div>
+				<div class="left">b-day</div>
+				<div class="check">Check back tmr for updates</div>
+			</div>
+			<div class="stars">
+				<div class="star1"><img src="./blue-star.png" alt="" /></div>
+				<div class="star2"><img src="./blue-star.png" alt="" /></div>
+				<div class="star3"><img src="./blue-star.png" alt="" /></div>
+			</div>
+			<div class="garden-of-friends">
+				<div class="flower" id="flower1">
+					<div><img src="./Flower1.png" alt="" id="flower-img1" /></div>
+					<div class="message" id="message1">
+						heyy star you're really awesome and inspiring and it's a joy to be
+						your friend :)) u have a really big heart and a hilarious silly
+						brain and i can't wait to see ur true karaoke soul shine thru 🙌
+						<br /><br />
+						- <span class="name">Aster</span>
+					</div>
+				</div>
+
+				<div class="flower" id="flower2">
+					<div class="message" id="message2">
+						Hola mi amige. Gracias por todos los tiempos divertidos y los
+						momentos cuando me has ensenado a pensar en un problema de una
+						manera differente. Me encanta la energia que aportas a nuestre
+						groupo de amigos. Me gusta compartir un amor por musica y bailar
+						contigo en el club. Feliz 22!
+						<br /><br />
+						- <span class="name">Arden</span>
+					</div>
+					<div><img src="./Flower2.png" alt="" id="flower-img2" /></div>
+				</div>
+				<div class="flower" id="flower3">
+					<div><img src="./Flower3.png" alt="" id="flower-img3" /></div>
+					<div class="message" id="message3">
+						Mes3: Curabitur tristique tincidunt nibh a ultricies. Nam pharetra
+						rutrum est eu sollicitudin. Praesent vel lorem molestie, volutpat
+						sapien id, aliquam purus. Proin congue, nulla nec hendrerit finibus,
+						nisi elit posuere turpis, sit amet aliquam dui enim ac odio.
+						Maecenas a accumsan augue. Etiam et viverra turpis. Sed ultricies
+						auctor enim, vitae facilisis magna ultricies eu !!
+						<br /><br />
+						- <span class="name">Grace</span>
+					</div>
+				</div>
+				<div class="flower" id="flower4">
+					<div class="message" id="message4">
+						Mes4: Curabitur tristique tincidunt nibh a ultricies. Nam pharetra
+						rutrum est eu sollicitudin. Praesent vel lorem molestie, volutpat
+						sapien id, aliquam purus. Proin congue, nulla nec hendrerit finibus,
+						nisi elit posuere turpis, sit amet aliquam dui enim ac odio.
+						Maecenas a accumsan augue. Etiam et viverra turpis. Sed ultricies
+						auctor enim, vitae facilisis magna ultricies eu !!
+						<br /><br />
+						- <span class="name">Disha</span>
+					</div>
+					<div><img src="./Flower4.png" alt="" id="flower-img4" /></div>
+				</div>
+				<div class="flower" id="flower5">
+					<div><img src="./Flower5.png" alt="" id="flower-img5" /></div>
+					<div class="message" id="message5">
+						Thank you for sharing your obscure web links and silly thoughts. I
+						appreciate that you always speak genuinely and try to make everyone
+						else feel at home when hanging out. I am always jealous of your
+						jorts.
+						<br /><br />
+						- <span class="name">Ren</span>
+					</div>
+				</div>
+			</div>
+			<div class="hearts">♡♡♡♡♡♡♡♡♡♡</div>
+
+			<div class="links">
+				<h3>A Collection of Cool Websites</h3>
+				<ul>
+					<li><a href="patatap.com">???????</a></li>
+					<li><a href="https://www.yhchang.com">???????</a></li>
+					<li>
+						<a href="https://tdingsun.github.io/reading-machines/">???????</a>
+					</li>
+					<li><a href="https://counterarchiving.xyz/">???????</a></li>
+				</ul>
+			</div>
+
+			<div class="hearts">♡♡♡♡♡♡♡♡♡♡</div>
+			<!-- <div class="space"></div> -->
+			<div class="mems">
+				<img src="./pic1.png" alt="" />
+				<img src="./pic2.png" alt="" />
+				<!-- <video>
+					<source src="./pic3.mp4" type="video/mp4" autoplay />
+				</video> -->
+				<img src="./pic4.jpg" alt="" />
+				<img src="./pic5.jpg" alt="" />
+				<img src="./pic6.jpg" alt="" />
+				<img src="./pic7.jpg" alt="" />
+				<img src="./pic8.jpg" alt="" />
+				<img src="./pic9.jpg" alt="" />
+				<img src="./pic10.jpg" alt="" />
+				<img src="./pic11.jpg" alt="" />
+				<img src="./pic12.jpg" alt="" />
+				<img src="./pic13.jpg" alt="" />
+				<img src="./pic14.jpg" alt="" />
+				<img src="./pic15.jpg" alt="" />
+			</div>
+			<div class="hearts">♡♡♡♡♡♡♡♡♡♡</div>
+		</div>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+	<script>
+		const months = [
+			"Jan",
+			"Feb",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"Aug",
+			"Sept",
+			"Oct",
+			"Nov",
+			"Dec",
+		];
+
+		let date = new Date();
+		let hour = date.getHours();
+		let minute = date.getMinutes();
+		let second = date.getSeconds();
+		// d.getSeconds();
+
+		console.log(minute.toString().length);
+		if (minute.toString().length == 1) {
+			minute = "0" + minute;
+		}
+		if (hour > 12) {
+			hour = hour % 12;
+		}
+
+		let time = "" + hour + ":" + minute;
+
+		let dd = String(date.getDate());
+		let mm = String(date.getMonth() + 1); //January is 0!
+
+		let yyyy = date.getFullYear();
+
+		let monthName = months[mm - 1];
+
+		let status = mm == 4 && dd == 11;
+
+		document.getElementById("time").innerHTML = time;
+		document.getElementById("month").innerHTML = monthName;
+		document.getElementById("day").innerHTML = dd;
+
+		if (status) {
+			document.getElementById("status").innerHTML = "currently";
+		} else {
+			document.getElementById("status").innerHTML = "noooooot";
+		}
+
+		gsap.fromTo(
+			".star1",
+			{ rotation: -0 },
+			{
+				duration: 100,
+				opacity: 1,
+				scale: 1,
+				rotation: 1800,
+				delay: 0,
+			}
+		);
+		gsap.fromTo(
+			".star2",
+			{ rotation: -0 },
+			{
+				duration: 100,
+				opacity: 1,
+				scale: 1,
+				rotation: 1800,
+				delay: 0,
+			}
+		);
+		gsap.fromTo(
+			".star3",
+			{ rotation: -0 },
+			{
+				duration: 100,
+				opacity: 1,
+				scale: 1,
+				rotation: 1800,
+				delay: 0,
+			}
+		);
+		gsap.fromTo(
+			"#flower-img1",
+			{ y: 0, rotation: -2 },
+			{
+				y: 10,
+				rotation: 2,
+				duration: 1,
+				delay: 0,
+				repeat: 400,
+				yoyo: true,
+				ease: "ease.out",
+			}
+		);
+		gsap.fromTo(
+			"#flower-img2",
+			{ y: 0, rotation: -2 },
+			{
+				y: 10,
+				rotation: 2,
+				duration: 1,
+				delay: 0,
+				repeat: 400,
+				yoyo: true,
+				ease: "ease.out",
+				delay: 2,
+			}
+		);
+		gsap.fromTo(
+			"#flower-img3",
+			{ y: 0, rotation: -2 },
+			{
+				y: 10,
+				rotation: 2,
+				duration: 1,
+				delay: 0,
+				repeat: 400,
+				yoyo: true,
+				ease: "ease.out",
+				delay: 3,
+			}
+		);
+		gsap.fromTo(
+			"#flower-img4",
+			{ y: 0, rotation: -2 },
+			{
+				y: 10,
+				rotation: 2,
+				duration: 1,
+				delay: 0,
+				repeat: 400,
+				yoyo: true,
+				ease: "ease.out",
+				delay: 4,
+			}
+		);
+		gsap.fromTo(
+			"#flower-img5",
+			{ y: 0, rotation: -2 },
+			{
+				y: 10,
+				rotation: 2,
+				duration: 1,
+				delay: 0,
+				repeat: 400,
+				yoyo: true,
+				ease: "ease.out",
+				delay: 5,
+			}
+		);
+	</script>
+</html>
