@@ -103,6 +103,10 @@ body {
 	margin-bottom: 6%;
 }
 
+#message4 {
+	margin-top: 10%;
+}
+
 .flower img {
 	margin-left: 20px;
 	margin-right: 30px;
@@ -172,8 +176,13 @@ a {
 }
 
 .mems > img {
-	padding-bottom: 2rem;
-	max-width: 800px;
+	padding-bottom: 1rem;
+	max-width: 500px;
+	padding-right: 1rem;
+}
+
+#pic1 {
+	max-width: 900px;
 }
 
 .hearts {
